@@ -2,7 +2,7 @@
 
 ## Code Cheatsheet
 
-### Data description:
+### Datasets description:
 
 1. **data**: DataFrame indexed by every holiday package’s departure week. The following columns are present:
    - **DestinationCountry**: The country of the destination airport. e.g., "Spain"
@@ -30,3 +30,20 @@
    - **Pax_total**: The total number of passengers of that holiday package. e.g., 243
    - **BookingsList**: An array of length 104 representing the percent of bookings made for each week in advance. E.g., at index 0: 0.0041 means 0.41% of the total bookings were made 0 weeks in advance (same week as departure).
    - **WeekList**: An array of length 104 representing the booking week of the year when the booking occurred. E.g., at index 0: 51, the week of departure is booking week 51, at index 1: 50, 1 week before departure is booking week 50.
+
+###
+- X_train :  all the holiday packages where the departure is between week 44, 2015 and week 44, 2018 (inclusive)
+- X_train_high : all the holiday packages where the departure is between week 44, 2015 and week 44, 2018 (inclusive) that are classified as "high"
+- X_train_clustering : all the holiday packages in X_trained grouped by their departure week and destination airport
+- X_test: all the holiday packages where the departure is between week 45, 2018 and week 44, 2019 (inclusive)
+
+### Forecasting models:
+1. Defining forecasting models
+2. [<code>GridSearchCV</code>](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) with 5-fold cross-validation to optimize parameter or model selection based on minimizing the custom scorer of MSE + MAE.
+3. The model is trained with the optimal parameters on the training set
+4. Making forecasts for the training and test set
+5. Scaling forecasts, normalizing them to sum up to 1 for every holiday package forecast
+6. Store the forecasts in the dataframe for each holiday package
+7. Compute and store the MSE for the forecast and the actual values
+8. Compute and store the MAE for the forecast and the actual values
+
