@@ -1,0 +1,5 @@
+'''
+1. Clustering 4.2.1.1: Time series kmeans
+2. Clustering 4.2.1.2: Time series kmeans on aggregated dep dates per 2 based on "weeks in advance"
+3. Clustering 4.2.2.1: Curve characteristics
+'''
