@@ -32,5 +32,5 @@ Table showing the results for the MAE and WMAE:
 | Clustering_tree + Cluster_TimeSeries                 | 0.009723           | 0.006461                   |
 
 
-<img alt="Rank of models" src="https://github.com/annitziak/sunweb_thesis/blob/main/ranked.jpg">
+<img alt="Rank of models" src="https://github.com/annitziak/sunweb_thesis/blob/main/visualizations/ranked.jpg">
 
