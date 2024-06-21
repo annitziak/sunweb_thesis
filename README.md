@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Introduction](#introduction)
-* [Navigation in Repository] (#navigation)
+* [Navigation in Repository](#navigation-in-repository)
 * [Description of the dataset](#description-of-the-dataset)
 * [Forecasting models used](#forecasting-models-used)
 * [Clustering models used](#clustering-models-used)
@@ -16,7 +16,7 @@ This thesis project focuses on evaluating various models for forecasting booking
 **Research Question**: To what extent can clustering techniques improve the accuracy of booking forecasts for holiday packages?
 
 ## Navigation in Repository
-.
+
 ├── code/
 │   ├── forecasting_models.ipynb/
 │   │   ├── Data preparation
