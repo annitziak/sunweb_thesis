@@ -16,7 +16,23 @@ This thesis project focuses on evaluating various models for forecasting booking
 **Research Question**: To what extent can clustering techniques improve the accuracy of booking forecasts for holiday packages?
 
 ## Navigation in Repository
-
+.
+├── code/
+│   ├── forecasting_models.ipynb/
+│   │   ├── Data preparation
+│   │   ├── Model definition 
+│   │   ├── Clustering
+│   │   └── Ensemble models
+│   └── clustering.ipynb/
+│       ├── Data preparation
+│       ├── Clustering
+│       └── Understand Clustering
+├── visualizations/
+│   ├── visualisations.ipynb
+│   └── figures(13)    
+├── README.md
+├── cheatsheet.md
+└── final_results_tables.md
 
 
 ## Description of the dataset
