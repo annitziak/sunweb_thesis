@@ -9,4 +9,6 @@ scipy==1.7.1
 statsmodels==0.12.2
 fastdtw==0.3.4
 
-#Use pip install -r requirements.txt
+# To install the requirements, use:
+# pip install -r requirements.txt
+
