@@ -17,6 +17,7 @@ This thesis project focuses on evaluating various models for forecasting booking
 
 ## Navigation in Repository
 
+```
 ├── code/
 │   ├── forecasting_models.ipynb/
 │   │   ├── Data preparation
@@ -33,6 +34,7 @@ This thesis project focuses on evaluating various models for forecasting booking
 ├── README.md
 ├── cheatsheet.md
 └── final_results_tables.md
+```
 
 
 ## Description of the dataset
