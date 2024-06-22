@@ -51,5 +51,10 @@
 1. Compute the past average booking patterns per holiday package (equation 4.2)
 2. Cluster those booking patterns using different methods.
 3. Train a forecasting model on each individual cluster.
-4. Build an ensemble model using the weighted cluster prediction and the general model prediction.
+4. Build an ensemble model. Compute optimal weights based on cluster prediction and the general model prediction.
+5. Make forecasts for the training and test set
+5. Scaling forecasts, normalizing them to sum up to 1 for every holiday package forecast
+6. Store the forecasts in the dataframe for each holiday package
+7. Compute and store the MSE for the forecast and the actual values
+8. Compute and store the MAE for the forecast and the actual values
 
