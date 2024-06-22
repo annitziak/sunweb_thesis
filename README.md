@@ -48,13 +48,20 @@ The dataset used in this analysis consists of cross-sectional data indexed by ev
 
 ## Forecasting models used
 1. [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+   - Trained under two scenarios: model 4.1.2.1 and model 4.1.2.2
 2. [Weighted Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression)
+   -  Trained under two scenarios: model 4.1.3.1 and model 4.1.3.2
 3. [Ridge Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
+    - Hyperparameter tuning for value `alpha`
 4. [Regression Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
+   - Hyperparameter tuning for `max_depth`, `min_samples_leaf` , `min_samples_split' , `max_features`
+
 
 ## Clustering models used
 1. [TS k-means Clustering](https://tslearn.readthedocs.io/en/stable/gen_modules/clustering/tslearn.clustering.TimeSeriesKMeans.html)
-2. [K-means clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) using Features extracted from the booking patterns
+   - For two different models : Clustering 4.2.1.1 using the average booking patterns and Clustering 4.2.1.2 using the booking patterns aggregated in pairs.
+2. [K-means clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) 
+   - For Clustering 4.2.2.1 : Using global Features extracted from the booking patterns
 
 ## Packages to include
 List of required Python packages:
