@@ -54,7 +54,7 @@ The dataset used in this analysis consists of cross-sectional data indexed by ev
 3. [Ridge Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
     - Hyperparameter tuning for value `alpha`
 4. [Regression Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
-   - Hyperparameter tuning for `max_depth`, `min_samples_leaf` , `min_samples_split' , `max_features`
+   - Hyperparameter tuning for `max_depth`, `min_samples_leaf` , `min_samples_split` , `max_features`
 
 
 ## Clustering models used
