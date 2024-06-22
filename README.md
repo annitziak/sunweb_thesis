@@ -35,6 +35,7 @@ This thesis project focuses on evaluating various models for forecasting booking
 │   └── figures(13)    
 ├── README.md
 ├── cheatsheet.md
+├── requirements.txt
 └── final_results_tables.md
 ```
 ### File Descriptions
