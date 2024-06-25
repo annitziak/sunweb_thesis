@@ -81,11 +81,12 @@ To install these packages, look at `requirements.txt` file with these dependenci
 
 ## Conclusions
 <ol>
- <li> Clustering is a valuable method in booking pattern forecasting. </li>
- <li> Ensemble models that utilized clustering outperformed all other models, including the benchmark model, which was not always outperformed by the general models. </li>
- <li> Clustering booking patterns is effective for grouping similar booking behaviors due to its unsupervised nature. </li>
- <li> The best performing clustering method was the TS k-means algorithm. </li>
- <li> Linear regression-based models generally outperformed non-linear ones. </li>
+<li>Clustering is a valuable method in booking pattern forecasting.</li>
+<li>Ensemble models that utilized clustering outperformed all other models, including the benchmark model, which was not always outperformed by the general models.</li>
+<li>Clustering booking patterns is effective for grouping similar booking behaviors due to its unsupervised nature.</li>
+<li>The best performing clustering method was the TS k-means algorithm.</li>
+<li>Linear regression-based models generally outperformed non-linear ones.</li>
+
 
 ## Contact
 Created by [@annitziak](https://github.com/annitziak) - feel free to contact me!
